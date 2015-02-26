@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6101935515B505F5008E5D04 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6101934B15B50512008E5D04 /* OpenAL.framework */; };
+		6101935615B50603008E5D04 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6101934D15B50520008E5D04 /* AudioToolbox.framework */; };
+		6112745315B4F689004C12FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6112745215B4F689004C12FB /* UIKit.framework */; };
+		6112745515B4F689004C12FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6112745415B4F689004C12FB /* Foundation.framework */; };
+		6112745715B4F689004C12FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6112745615B4F689004C12FB /* CoreGraphics.framework */; };
+		61162DF215DB27FD00EA6800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61162DEB15DB27FD00EA6800 /* AppDelegate.m */; };
+		61162DF315DB27FD00EA6800 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61162DED15DB27FD00EA6800 /* InfoViewController.m */; };
+		61162DF415DB27FD00EA6800 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61162DEF15DB27FD00EA6800 /* ListViewController.m */; };
+		61162DF515DB27FD00EA6800 /* MonitorViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 61162DF115DB27FD00EA6800 /* MonitorViewController.mm */; };
+		61162DF815DB280D00EA6800 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61162DF615DB280D00EA6800 /* MainWindow.xib */; };
+		61162DF915DB280D00EA6800 /* MonitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61162DF715DB280D00EA6800 /* MonitorView.xib */; };
+		61162DFD15DB283400EA6800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61162DFB15DB283400EA6800 /* main.m */; };
+		8637CA1F181508EA00E76461 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8637CA1E181508EA00E76461 /* libiconv.dylib */; };
+		8637CA211815093B00E76461 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8637CA201815093B00E76461 /* libz.dylib */; };
+		8637CA3818150BB900E76461 /* IOTCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8637CA3618150BB900E76461 /* IOTCamera.framework */; };
+		8637CA3918150BB900E76461 /* libIOTCAPIs_ALL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8637CA3718150BB900E76461 /* libIOTCAPIs_ALL.a */; };
+		8637CA3E18160D8A00E76461 /* CameraShowGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8637CA3D18160D8A00E76461 /* CameraShowGLView.m */; };
+		8637CA44181612F700E76461 /* DirectDisplayShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8637CA40181612DD00E76461 /* DirectDisplayShader.fsh */; };
+		8637CA45181612F700E76461 /* DirectDisplayShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 8637CA41181612DD00E76461 /* DirectDisplayShader.vsh */; };
+		8637CA471816132E00E76461 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8637CA461816132E00E76461 /* OpenGLES.framework */; };
+		8637CA481816134300E76461 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6101934F15B5054A008E5D04 /* QuartzCore.framework */; };
+		8637CA4A1816135D00E76461 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8637CA491816135D00E76461 /* CoreVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6101934B15B50512008E5D04 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		6101934D15B50520008E5D04 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6101934F15B5054A008E5D04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6101935715B5062B008E5D04 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6112744E15B4F689004C12FB /* Sample_IOTCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_IOTCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6112745215B4F689004C12FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6112745415B4F689004C12FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6112745615B4F689004C12FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61162DEA15DB27FD00EA6800 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sample_IOTCamera/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		61162DEB15DB27FD00EA6800 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Sample_IOTCamera/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		61162DEC15DB27FD00EA6800 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = Sample_IOTCamera/InfoViewController.h; sourceTree = SOURCE_ROOT; };
+		61162DED15DB27FD00EA6800 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = Sample_IOTCamera/InfoViewController.m; sourceTree = SOURCE_ROOT; };
+		61162DEE15DB27FD00EA6800 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = Sample_IOTCamera/ListViewController.h; sourceTree = SOURCE_ROOT; };
+		61162DEF15DB27FD00EA6800 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = Sample_IOTCamera/ListViewController.m; sourceTree = SOURCE_ROOT; };
+		61162DF015DB27FD00EA6800 /* MonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonitorViewController.h; path = Sample_IOTCamera/MonitorViewController.h; sourceTree = SOURCE_ROOT; };
+		61162DF115DB27FD00EA6800 /* MonitorViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MonitorViewController.mm; path = Sample_IOTCamera/MonitorViewController.mm; sourceTree = SOURCE_ROOT; };
+		61162DF615DB280D00EA6800 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = Sample_IOTCamera/MainWindow.xib; sourceTree = SOURCE_ROOT; };
+		61162DF715DB280D00EA6800 /* MonitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MonitorView.xib; path = Sample_IOTCamera/MonitorView.xib; sourceTree = SOURCE_ROOT; };
+		61162DFA15DB281A00EA6800 /* Sample_IOTCamera-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Sample_IOTCamera-Prefix.pch"; path = "Sample_IOTCamera/Sample_IOTCamera-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		61162DFB15DB283400EA6800 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sample_IOTCamera/main.m; sourceTree = SOURCE_ROOT; };
+		61162DFC15DB283400EA6800 /* Sample_IOTCamera-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Sample_IOTCamera-Info.plist"; path = "Sample_IOTCamera/Sample_IOTCamera-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8637CA1E181508EA00E76461 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		8637CA201815093B00E76461 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8637CA3618150BB900E76461 /* IOTCamera.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOTCamera.framework; path = "Sample_IOTCamera/IOTCameraLib/Release-iphoneos/IOTCamera.framework"; sourceTree = "<group>"; };
+		8637CA3718150BB900E76461 /* libIOTCAPIs_ALL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIOTCAPIs_ALL.a; path = "Sample_IOTCamera/IOTCameraLib/Release-iphoneos/libIOTCAPIs_ALL.a"; sourceTree = "<group>"; };
+		8637CA3C18160D8A00E76461 /* CameraShowGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraShowGLView.h; path = Sample_IOTCamera/CameraShowGLView.h; sourceTree = SOURCE_ROOT; };
+		8637CA3D18160D8A00E76461 /* CameraShowGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraShowGLView.m; path = Sample_IOTCamera/CameraShowGLView.m; sourceTree = SOURCE_ROOT; };
+		8637CA40181612DD00E76461 /* DirectDisplayShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = DirectDisplayShader.fsh; path = Sample_IOTCamera/Shaders/DirectDisplayShader.fsh; sourceTree = SOURCE_ROOT; };
+		8637CA41181612DD00E76461 /* DirectDisplayShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = DirectDisplayShader.vsh; path = Sample_IOTCamera/Shaders/DirectDisplayShader.vsh; sourceTree = SOURCE_ROOT; };
+		8637CA461816132E00E76461 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8637CA491816135D00E76461 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6112744B15B4F689004C12FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8637CA4A1816135D00E76461 /* CoreVideo.framework in Frameworks */,
+				8637CA481816134300E76461 /* QuartzCore.framework in Frameworks */,
+				8637CA471816132E00E76461 /* OpenGLES.framework in Frameworks */,
+				8637CA211815093B00E76461 /* libz.dylib in Frameworks */,
+				8637CA1F181508EA00E76461 /* libiconv.dylib in Frameworks */,
+				6101935615B50603008E5D04 /* AudioToolbox.framework in Frameworks */,
+				6101935515B505F5008E5D04 /* OpenAL.framework in Frameworks */,
+				6112745315B4F689004C12FB /* UIKit.framework in Frameworks */,
+				6112745515B4F689004C12FB /* Foundation.framework in Frameworks */,
+				6112745715B4F689004C12FB /* CoreGraphics.framework in Frameworks */,
+				8637CA3818150BB900E76461 /* IOTCamera.framework in Frameworks */,
+				8637CA3918150BB900E76461 /* libIOTCAPIs_ALL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6112744315B4F689004C12FB = {
+			isa = PBXGroup;
+			children = (
+				8637CA491816135D00E76461 /* CoreVideo.framework */,
+				8637CA461816132E00E76461 /* OpenGLES.framework */,
+				6112745115B4F689004C12FB /* Frameworks */,
+				6112744F15B4F689004C12FB /* Products */,
+				6112745815B4F689004C12FB /* Sample_IOTCamera */,
+			);
+			sourceTree = "<group>";
+		};
+		6112744F15B4F689004C12FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6112744E15B4F689004C12FB /* Sample_IOTCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6112745115B4F689004C12FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8637CA3718150BB900E76461 /* libIOTCAPIs_ALL.a */,
+				8637CA3618150BB900E76461 /* IOTCamera.framework */,
+				8637CA201815093B00E76461 /* libz.dylib */,
+				8637CA1E181508EA00E76461 /* libiconv.dylib */,
+				6101934D15B50520008E5D04 /* AudioToolbox.framework */,
+				6101935715B5062B008E5D04 /* AVFoundation.framework */,
+				6112745615B4F689004C12FB /* CoreGraphics.framework */,
+				6112745415B4F689004C12FB /* Foundation.framework */,
+				6101934B15B50512008E5D04 /* OpenAL.framework */,
+				6101934F15B5054A008E5D04 /* QuartzCore.framework */,
+				6112745215B4F689004C12FB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6112745815B4F689004C12FB /* Sample_IOTCamera */ = {
+			isa = PBXGroup;
+			children = (
+				8637CA3C18160D8A00E76461 /* CameraShowGLView.h */,
+				8637CA3D18160D8A00E76461 /* CameraShowGLView.m */,
+				61162DEA15DB27FD00EA6800 /* AppDelegate.h */,
+				61162DEB15DB27FD00EA6800 /* AppDelegate.m */,
+				61162DEC15DB27FD00EA6800 /* InfoViewController.h */,
+				61162DED15DB27FD00EA6800 /* InfoViewController.m */,
+				61162DEE15DB27FD00EA6800 /* ListViewController.h */,
+				61162DEF15DB27FD00EA6800 /* ListViewController.m */,
+				61162DF015DB27FD00EA6800 /* MonitorViewController.h */,
+				61162DF115DB27FD00EA6800 /* MonitorViewController.mm */,
+				8637CA3F181612C300E76461 /* Shaders */,
+				6112747215B4F75C004C12FB /* Resources */,
+				6112745915B4F689004C12FB /* Supporting Files */,
+			);
+			name = Sample_IOTCamera;
+			path = IOTCamSample;
+			sourceTree = "<group>";
+		};
+		6112745915B4F689004C12FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61162DFB15DB283400EA6800 /* main.m */,
+				61162DFC15DB283400EA6800 /* Sample_IOTCamera-Info.plist */,
+				61162DFA15DB281A00EA6800 /* Sample_IOTCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6112747215B4F75C004C12FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61162DF615DB280D00EA6800 /* MainWindow.xib */,
+				61162DF715DB280D00EA6800 /* MonitorView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8637CA3F181612C300E76461 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				8637CA40181612DD00E76461 /* DirectDisplayShader.fsh */,
+				8637CA41181612DD00E76461 /* DirectDisplayShader.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6112744D15B4F689004C12FB /* Sample_IOTCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6112746615B4F689004C12FB /* Build configuration list for PBXNativeTarget "Sample_IOTCamera" */;
+			buildPhases = (
+				6112744A15B4F689004C12FB /* Sources */,
+				6112744B15B4F689004C12FB /* Frameworks */,
+				6112744C15B4F689004C12FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample_IOTCamera;
+			productName = IOTCamSample;
+			productReference = 6112744E15B4F689004C12FB /* Sample_IOTCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6112744515B4F689004C12FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6112744815B4F689004C12FB /* Build configuration list for PBXProject "Sample_IOTCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6112744315B4F689004C12FB;
+			productRefGroup = 6112744F15B4F689004C12FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6112744D15B4F689004C12FB /* Sample_IOTCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6112744C15B4F689004C12FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8637CA44181612F700E76461 /* DirectDisplayShader.fsh in Resources */,
+				8637CA45181612F700E76461 /* DirectDisplayShader.vsh in Resources */,
+				61162DF815DB280D00EA6800 /* MainWindow.xib in Resources */,
+				61162DF915DB280D00EA6800 /* MonitorView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6112744A15B4F689004C12FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61162DF215DB27FD00EA6800 /* AppDelegate.m in Sources */,
+				61162DF315DB27FD00EA6800 /* InfoViewController.m in Sources */,
+				61162DF415DB27FD00EA6800 /* ListViewController.m in Sources */,
+				61162DF515DB27FD00EA6800 /* MonitorViewController.mm in Sources */,
+				61162DFD15DB283400EA6800 /* main.m in Sources */,
+				8637CA3E18160D8A00E76461 /* CameraShowGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6112746415B4F689004C12FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "../../../Lib/iOS/Debug-iphonesimulator";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "../../../Lib/iOS/Release-iphonesimulator";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6112746515B4F689004C12FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "../../../Lib/iOS/Debug-iphonesimulator";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "../../../Lib/iOS/Release-iphonesimulator";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6112746715B4F689004C12FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiliu Zhang (Q7F3CYB8RD)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"Sample_IOTCamera/IOTCameraLib/Debug-iphoneos",
+					"Sample_IOTCamera/IOTCameraLib/Debug-iphonesimulator",
+					"\"$(SRCROOT)/Sample_IOTCamera/IOTCameraLib/Debug-iphoneos\"",
+					"\"$(SRCROOT)/Sample_IOTCamera/IOTCameraLib/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample_IOTCamera/Sample_IOTCamera-Prefix.pch";
+				INFOPLIST_FILE = "Sample_IOTCamera/Sample_IOTCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"Sample_IOTCamera/IOTCameraLib/Debug-iphoneos",
+					"Sample_IOTCamera/IOTCameraLib/Debug-iphonesimulator",
+					"\"$(SRCROOT)/Sample_IOTCamera/IOTCameraLib/Debug-iphoneos\"",
+					"\"$(SRCROOT)/Sample_IOTCamera/IOTCameraLib/Release-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f5026eb8-0174-469b-8142-71747110dbf0";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6112746815B4F689004C12FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiliu Zhang (Q7F3CYB8RD)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"Sample_IOTCamera/IOTCameraLib/Release-iphone",
+					"\"$(SRCROOT)/Sample_IOTCamera/IOTCameraLib/Debug-iphoneos\"",
+					"\"$(SRCROOT)/Sample_IOTCamera/IOTCameraLib/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample_IOTCamera/Sample_IOTCamera-Prefix.pch";
+				INFOPLIST_FILE = "Sample_IOTCamera/Sample_IOTCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"Sample_IOTCamera/IOTCameraLib/Release-iphone",
+					"\"$(SRCROOT)/Sample_IOTCamera/IOTCameraLib/Debug-iphoneos\"",
+					"\"$(SRCROOT)/Sample_IOTCamera/IOTCameraLib/Release-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f5026eb8-0174-469b-8142-71747110dbf0";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6112744815B4F689004C12FB /* Build configuration list for PBXProject "Sample_IOTCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6112746415B4F689004C12FB /* Debug */,
+				6112746515B4F689004C12FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6112746615B4F689004C12FB /* Build configuration list for PBXNativeTarget "Sample_IOTCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6112746715B4F689004C12FB /* Debug */,
+				6112746815B4F689004C12FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6112744515B4F689004C12FB /* Project object */;
+}
