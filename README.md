@@ -1,4 +1,4 @@
-# HDCameraMonitor_iOS
+# CameraMonitor_iOS
 Purpose
 ---
     This is used for connecting to Camera, and display images in real time.
